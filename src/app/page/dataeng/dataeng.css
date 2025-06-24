@@ -1,0 +1,31 @@
+/* data-engineering.component.scss */
+
+.data-engineering-header {
+  background: url('/assets/images/data-bg.jpg') center/cover no-repeat;
+  backdrop-filter: brightness(0.5);
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  cursor: pointer;
+}
+
+.tech-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
+
+.cta-section {
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.list-unstyled i {
+  font-size: 1.2rem;
+}

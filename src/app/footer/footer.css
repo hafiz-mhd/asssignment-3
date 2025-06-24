@@ -1,0 +1,38 @@
+.site-footer {
+    background: linear-gradient(90deg, #1b2a4e, #283e68);
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.95rem;
+  }
+
+  .footer-link:hover {
+    text-decoration: underline;
+    color: #84c1ff !important;
+  }
+
+  @media (max-width: 576px) {
+    .site-footer .row {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .site-footer .col-md-4 {
+      margin-bottom: 15px;
+    }
+  }
+  .footer-icon {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-icon:hover {
+  transform: scale(1.2);
+  color: #0d6efd; /* Bootstrap primary color */
+}
+
+.footer-icon {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.footer-icon:hover {
+  transform: scale(1.2);
+  color: #0d6efd;
+}
+

@@ -1,0 +1,80 @@
+body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #fcfcfc, #d9e4f5);
+      color: #333;
+      margin: 0;
+      padding-bottom: 60px;
+    }
+
+    header {
+      background: linear-gradient(90deg, #031a36, #6b4eff);
+      color: white;
+      padding: 50px 20px 30px;
+      text-align: center;
+      border-radius: 0 0 40px 40px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+    }
+
+    .job-card {
+      border-radius: 20px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      background: white;
+      padding: 30px;
+    }
+
+    .job-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+    }
+
+    .job-card h4 {
+      font-weight: 600;
+      color: #0c233f;
+    }
+
+    .btn-apply {
+      background-color: #6b4eff;
+      border: none;
+      border-radius: 50px;
+      padding: 10px 25px;
+      color: white;
+      transition: background 0.3s ease;
+    }
+
+    .btn-apply:hover {
+      background-color: #523ccf;
+    }
+
+    .modal-header, .modal-footer {
+      background-color: #f0f4f9;
+    }
+
+    .modal-title {
+      font-weight: 600;
+    }
+ .btn-brand {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.btn-brand:hover {
+  background: linear-gradient(135deg, #0056b3, #007bff);
+  transform: scale(1.05);
+  box-shadow: 0 0.5rem 1rem rgba(0, 123, 255, 0.3);
+}

@@ -1,0 +1,61 @@
+ html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+     body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #f0f4f8, #d9e4f5);
+      padding-bottom: 80px;
+    }
+
+    header {
+      background: linear-gradient(90deg, #051d3b, #6b4eff);
+      color: white;
+      text-align: center;
+      padding: 50px 20px 30px;
+      border-radius: 0 0 40px 40px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 40px;
+    }
+
+    .card {
+      border: none;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+    }
+
+    .card-title {
+      color: #08213f;
+      font-weight: 600;
+    }
+
+    .service-icon {
+      font-size: 2.5rem;
+      color: #092446;
+      margin-bottom: 15px;
+    }
+    fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+  will-change: opacity, transform;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

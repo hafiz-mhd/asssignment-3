@@ -1,0 +1,45 @@
+<footer class="site-footer bg-dark text-white pt-5 pb-4 mt-5">
+  <div class="container">
+    <div class="row text-center text-md-start align-items-start">
+
+      
+      <div class="col-md-4 mb-4">
+        <h6 class="fw-bold">NeST Digital Pvt Ltd</h6>
+        <p class="small mb-2">
+          Driving innovation through digital excellence. We empower businesses through smart solutions and sustainable practices.
+        </p>
+        <p class="mb-1 fw-semibold">© 2025 All Rights Reserved.</p>
+        <p class="mb-0 small">A NeST Group Company</p>
+      </div>
+
+     
+       <div class="col-md-4 mb-4 text-center">
+        <ul class="list-unstyled d-flex justify-content-center flex-wrap gap-3 mb-3">
+          <li><a routerLink="/about" class="nav-link"  class="text-white text-decoration-none small">About Us</a></li>
+          <li><a routerLink="/services" class="nav-link" class="text-white text-decoration-none small">Services</a></li>
+          <li><a routerLink="/career" class="text-white text-decoration-none small">Careers</a></li>
+          <li><a routerLink="/contact" class="text-white text-decoration-none small">Contact us</a></li>
+          <li><a href="https://nestdigital.com/legal-disclaimer" class="text-white text-decoration-none small" target="_blank">Legal</a></li>
+        </ul>
+        <a href="#top" class="btn btn-light btn-sm">Home</a>
+      </div>
+
+      
+      <div class="col-md-4 mb-4 text-center text-md-end">
+        <h6 class="fw-bold mb-2">Follow Us</h6>
+        <div class="d-flex justify-content-center justify-content-md-end gap-3 fs-5 mb-3">
+          <a href="https://www.facebook.com/nestgrouptvm" target="_blank" class="text-white footer-icon" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.youtube.com/@NeSTDigitalTVM" target="_blank" class="text-white footer-icon" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+          <a href="https://www.linkedin.com/company/nest-digital-pvt-ltd/" target="_blank" class="text-white footer-icon" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="mailto:info@nestdigital.com" class="text-white footer-icon" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+        </div>
+
+        <form class="d-flex flex-column flex-md-row gap-2 justify-content-md-end" (submit)="onSubscribe($event)">
+          <input type="email" class="form-control form-control-sm" placeholder="Your email" required>
+          <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</footer>
